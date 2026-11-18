@@ -1,0 +1,43 @@
+main {
+  max-width: 520px;
+  margin: 32px auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #888;
+  border-radius: 4px;
+  font: inherit;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+h2 {
+  margin-top: 28px;
+}
+
+p {
+  text-align: left;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
